@@ -1,0 +1,226 @@
+body {
+	background-image: url('../images/chemistry.jpeg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto; 
+}
+
+.introduction {
+	height: 12rem;
+	overflow: auto;
+}
+
+.introduction h1 {
+	color: #1F0A25;
+	font-size: 3.0rem;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.introduction h3 {
+	color: #1F0A25;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.call {
+	background-color: #73A0A7;
+	border-radius: 1rem;
+	padding: 0.30rem 1.2rem;
+	width: 40%;
+	margin: 0 auto; /* put container right in the middle */
+	letter-spacing: 0.03em;
+}
+
+.question {
+	color: #2F3A40;
+}
+
+.itemList {
+	list-style: none;
+	padding-left: 0;
+}
+
+.itemList li {
+	margin-bottom: 1em;
+}
+
+.options {
+	background-color: #2F3A40;
+	width: 28rem;
+	height: 3rem;
+	font-size: 1em;
+	color: #548C8F;
+	border-radius: 2rem;
+	border-style: none;
+}
+
+.options:hover {
+	cursor:pointer;
+	background-color: #1F0A25;
+	color: #73A0A7;
+}
+
+.showResults {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+
+.results {
+	width: 80%;
+	height: 30%;
+
+}
+
+.icons {
+	list-style: none;
+	padding-left: 0;
+}
+
+.icons > li {
+	display: inline-block;
+	margin: 0rem 2px;
+}
+
+.displayPoints {
+	width: 80%;
+	height: 50%;
+	vertical-align: top;
+}
+
+#numbercor,
+.correct {
+	font-size: 1.2rem;
+	color: blue;
+}
+
+#numberinc,
+.wrong {
+	font-size: 1.2rem;
+	color: red;
+}
+
+.points {
+	color: white;
+}
+
+.showResults {
+	margin: 0 auto;
+	background-color: #73A0A7;
+	border-radius: 1rem;
+	padding: 0.30rem 1.2rem;
+	height: 5.5rem;
+	width: 40%;
+	margin: 0 auto; /* put container right in the middle */
+	margin-top: 1rem;
+}
+
+#overlay,
+#overlaydos {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+}
+
+#overlay div,
+#overlaydos div {
+     width:300px;
+     margin: 210px auto;
+     background-color: #fff;
+     border:1px solid #000;
+     padding:134px;
+     text-align:center;
+}
+
+
+/*Your own Lightbox*/
+
+.backdrop
+	{
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:100%;
+		background:#000;
+		opacity: .0;
+		filter:alpha(opacity=0);
+		z-index:50;
+		display:none;
+	}
+ 
+
+.box
+	{
+		position:absolute;
+		top:20%;
+		left:30%;
+		width:500px;
+		height:300px;
+		background:#ffffff;
+		z-index:51;
+		padding:10px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow:0px 0px 5px #444444;
+		-webkit-box-shadow:0px 0px 5px #444444;
+		box-shadow:0px 0px 5px #444444;
+		display:none;
+	}
+
+.close
+	{
+		float:right;
+		margin-right:6px;
+			cursor:pointer;
+	}
+ 
+
+
+/*div#overlaywiki {
+	display: none;
+	z-index: 2;
+	background: #000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+div#specialBox {
+	display: none;
+	position: relative;
+	z-index: 3;
+	margin: 150px auto 0px auto;
+	width: 500px; 
+	height: 300px;
+	background: #FFF;
+	color: #000;
+}
+div#wrapper {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	padding-left:24px;
+}*/
+
+
+
+
+
+
+
+
+	
+
